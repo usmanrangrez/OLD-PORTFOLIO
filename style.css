@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    /* height: 500px; */
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.hero{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    /* height: 500px; */
+    background-color: rgb(216, 96, 96);
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+ul.show{
+    display: block;
+}
+
+li{
+    /* width: 200px; */
+    text-decoration: none;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+    font-weight: 600;
+}
+
+p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hero-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-text{
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+
+
+.button{
+    width: 200px;
+    height: 55px;
+    background-color: coral;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+    
+}
+
+.button:hover{
+    background-color: #ef744b;
+}
+
+.button:active{
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials{
+    padding-bottom: 200px;
+    margin-right: 10px;
+}
+
+.logo{
+    height: 80px;
+    margin: 30px;
+    border-radius: 110px;
+    opacity: .3;
+}
+
+.git{
+    margin-left: 6px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.headshot{
+    height: 310px;
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 104px; 
+    margin-left: 134px;
+}
+
+h2{
+    font-size: 41px;
+}
+
+
+.para{
+    font-size: 25px;
+}
+
+.subtext{
+    font-size: 10px;
+    font-weight: 300px;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.project-card{
+    width: 280px;
+    height: 400px;
+    box-shadow:5px 5px 20px rgb(154, 154, 146);
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-right: 80px;
+}
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.project-image{
+    width: 240px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+hr{
+    margin: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.ff{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.git-new{
+    margin-top: 5px;
+}
+
+.ff > div{
+    padding: 10px;
+}
+
+.last{
+    font-size: 19px;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .para{
+        font-size: 15px;
+    }
+    .headshot{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.menu{
+    display: none;
+}
+
+@media only screen and (max-width:1000px){
+    .menu{
+        margin-bottom: 60px;
+        display: block;
+        border: 0;
+        color: white;
+        font-size: 30px;
+        background-color: transparent;
+    }
+
+    ul{
+        display: none;
+    }
+}
